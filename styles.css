@@ -1,0 +1,129 @@
+* {
+    font-family: Arial;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #topbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  #left-side {
+    padding-left: 0;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 10px;
+    color: #000;
+    opacity: 0.75;
+    cursor: pointer;
+  }
+  
+  #search-engine {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  #magnifying-glass {
+    height: 20px;
+  }
+  
+  #microphone {
+    height: 20px;
+  }
+  
+  #logo {
+    margin: 150px auto 30px;
+    display: block;
+  }
+  
+  #result{
+    padding: 30px 0 0 0;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+  }
+  
+  #search-button{
+    background-color: rgb(225,225,225);
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    color: rgb(50,50,50);
+    margin-right: 20px;
+  }
+  
+  #feeling-lucky{
+    background-color: rgb(225,225,225);
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    color: rgb(50,50,50);
+  }
+  
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(191, 191, 191);
+    background: rgb(228,228,228);
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    
+    font-size: 15px;
+  }
+  
+  #search-bar {
+      width: 585px;
+      height: 45px;
+      border-radius: 24px;
+      border: 1px solid #dfe1e5;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  } 
+  
+  #search-bar:hover {
+      box-shadow: 0 1px 6px 0 #ccc;
+  }
+  
+  #search {
+    border-width:0px;
+    border:none;
+    outline: none;
+    margin-right: 60%;
+  }
+  
+  #apps {
+    height:25px;
+    width:25px;
+  }
+  
+  #login {
+    background-color: rgb(25, 133, 244);
+    color: white;
+    padding: 10px 20px 10px 20px;
+  }
+  
